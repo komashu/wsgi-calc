@@ -33,8 +33,8 @@ def index():
    You can only add, subtract, multiply and divide. Just add one of those words into the URL with each number separated
    with a '/'.<br><br>
 
-   For instance if you wanted to add 5 to 5, your URL would look like <a href="add/5/5">http://localhost:8080/add/5/5</a><br>
-   So...
+   For instance if you wanted to add 5 to 5, your URL would look like <a href="add/5/5">http://localhost:8080/add/5/5</a><br><br>
+   So...<br>
    Addition: your URL would look like <a href="add/5/5">http://localhost:8080/add/5/5</a><br>
    Subtraction: your URL would look like <a href="subtract/10/5">http://localhost:8080/subtract/10/5</a><br>
    Multiplication: your URL would look like <a href="multiply/5/5">http://localhost:8080/multiply/5/5</a><br>
@@ -87,8 +87,8 @@ def style():
     style = """
         <style type="text/css">
     body,td,th {
-	font-family: "American Typewriter", "American Typewriter Condensed", "American Typewriter Condensed Light", "American Typewriter Light";
-	color: #000;
+	    font-family: Helvetica, Gadget, sans-serif;
+	    color: #000;
     }
     body {
 	    background-color: #FFF;
